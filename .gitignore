@@ -1,0 +1,46 @@
+thumbs.db
+
+
+*.psd
+
+# Built application files
+
+*.apk
+
+*.aar
+
+*.ap_
+
+*.aab
+
+
+
+# Files for the ART/Dalvik VM
+
+*.dex
+
+
+
+# Java class files
+
+*.class
+
+
+
+
+# IntelliJ
+
+*.iml
+
+.idea
+
+.idea/workspace.xml
+
+.idea/tasks.xml
+
+.idea/gradle.xml
+
+.idea/dictionaries
+
+.idea/libraries
+
