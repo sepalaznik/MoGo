@@ -142,6 +142,8 @@ transition: width 0.4s linear, transform 1.2s linear;
 nav.about a:hover:before {
 left: 0;
 width: 25%;
+-moz-transform: translateX(300%);
+-webkit-transform: translateX(300%);
 transform: translateX(300%);
 }
 
@@ -424,6 +426,8 @@ position: relative;
 position: absolute;
 bottom: 0;
 left: 50%;
+-moz-transform: translateX(-56%);
+-webkit-transform: translateX(-56%);
 transform: translateX(-56%);
 z-index: 1;
 }
@@ -431,6 +435,8 @@ z-index: 1;
 position: absolute;
 bottom: -90px;
 left: 50%;
+-moz-transform: translateX(35%);
+-webkit-transform: translateX(35%);
 transform: translateX(35%);
 z-index: 10;
 }
@@ -478,9 +484,13 @@ padding: 6px;
 }
 .arrow-down {
 display: block;
+-moz-transform: translateY(-25%) translateX(-25%) rotate(45deg);
+-webkit-transform: translateY(-25%) translateX(-25%) rotate(45deg);
 transform: translateY(-25%) translateX(-25%) rotate(45deg);
 }
 .accordion .row input:checked ~ .ac-title .arrow-down {
+-moz-transform: translateY(25%) translateX(-25%) rotate(-135deg);
+-webkit-transform: translateY(25%) translateX(-25%) rotate(-135deg);
 transform: translateY(25%) translateX(-25%) rotate(-135deg);
 }
 .accordion .row input {
@@ -531,12 +541,16 @@ transition: all 0.5s ease-in-out;
 position: absolute;
 left: 0;
 top: 50%;
+-moz-transform: translateY(-50%) rotate(135deg);
+-webkit-transform: translateY(-50%) rotate(135deg);
 transform: translateY(-50%) rotate(135deg);
 }
 .arrow-next{
 position: absolute;
 right: 0;
 top: 50%;
+-moz-transform: translateY(-50%) rotate(-45deg);
+-webkit-transform: translateY(-50%) rotate(-45deg);
 transform: translateY(-50%) rotate(-45deg);
 }
 [id^="item"] {
@@ -656,6 +670,8 @@ margin: 0px 15px 80px;
 position: absolute;
 bottom: -76px;
 left: 50%;
+-moz-transform: translateX(-50%);
+-webkit-transform: translateX(-50%);
 transform: translateX(-50%);
 text-align: center;
 width: 100%;
@@ -672,6 +688,8 @@ padding-top: 10px;
 position: absolute;
 top: 50%;
 left: 25%;
+-moz-transform: translate(-50% -50%);
+-webkit-transform: translate(-50% -50%);
 transform: translate(-50% -50%);
 display: flex;
 align-items: center;
