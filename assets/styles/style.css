@@ -441,8 +441,6 @@ transform: translateX(35%);
 z-index: 10;
 }
 
-container.service2 {
-}
 .service-about {
 margin-top: 94px;
 margin-bottom: 107px;
@@ -560,10 +558,6 @@ display: none;
 z-index: 2;
 opacity: 1;
 }
-.item-2{
-}
-.item-3{
-}
 *:target ~ .item-1 {
 opacity: 0;
 }
@@ -578,10 +572,6 @@ opacity: 1;
 .item-4 {
 z-index: 2;
 opacity: 1;
-}
-.item-5{
-}
-.item-6{
 }
 *:target ~ .item-4 {
 opacity: 0;
@@ -694,9 +684,6 @@ transform: translate(-50% -50%);
 display: flex;
 align-items: center;
 justify-content: center;
-}
-.socialnets li {
-
 }
 .socialnets li a, .socialnets li a:visited {
 width: 56px;
@@ -874,8 +861,6 @@ margin-top: 18px;
 padding-top: 103px;
 padding-bottom: 112px;
 }
-.galery.blogs {
-}
 .galery .blog-box {
 margin-top: -4px;
 width: 100%;
@@ -904,7 +889,7 @@ color: rgb(255,255,255);
     position: absolute;
     top: 67%;
     left: -10px;
-    z-ndex: 2;
+    z-index: 2;
 }
 .blog-date p.day {
 font-size: 30px;
@@ -1000,7 +985,7 @@ background: rgb(153,153,153);
 .modalMap > div img {
 width: 100%;
 }
-.close {
+.closeModal {
 background: rgb(153,153,153);
 color: rgb(255,255,255);
 position: absolute;
@@ -1014,12 +999,10 @@ font-weight: bold;
 border-radius: 50%;
 box-shadow: 0;
 }
-.close:hover {
+.closeModal:hover {
 background: rgb(243,129,129);
 }
 
-.contacts {
-}
 .galery.foot {
 padding-top: 78px;
 padding-bottom: 38px;
@@ -1110,7 +1093,6 @@ border: none;
 text-transform: uppercase;
 }
 
-
 .blog-mini-box {
 max-width: 340px;
 margin: 0 40px;
@@ -1119,7 +1101,6 @@ text-align: left;
 .blog-mini-box h5, .inst-box h5 {
 margin-bottom: 36px;
 }
-
 .blog-mini {
 display: flex;
 align-items: center;
